@@ -1,7 +1,9 @@
 package descriptive
 
+import java.util.*
 import kotlin.math.floor
 import kotlin.math.sqrt
+
 
 object Descriptive {
     fun mean (a:List<Double>):Double{
@@ -60,4 +62,6 @@ fun main(){
     println(Descriptive.mode(a))
     println(Descriptive.varians(a))
     println(Descriptive.standardDeviaton(a))
+    var c=Random(10)
+    println(c)
 }
